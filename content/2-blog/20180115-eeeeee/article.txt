@@ -1,0 +1,33 @@
+Title: eeeeee
+
+----
+
+Mainimage: 
+
+----
+
+Alt-text: 
+
+----
+
+Is-comments: 
+
+----
+
+Teaser: 
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Date: today
+
+----
+
+Keywords: 

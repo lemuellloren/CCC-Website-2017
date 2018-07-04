@@ -1,0 +1,315 @@
+// BASE IMPORT
+@import '_base';
+@import '_hover';
+// PAGE FRAMEWORK COMPONENT IMPORT
+@import '../bower_components/uikit/less/components/slideshow.less';
+@import '../bower_components/uikit/less/components/dotnav.less';
+@import '../bower_components/uikit/less/components/tooltip.less';
+@import '../bower_components/uikit/less/components/accordion.less';
+@import '../bower_components/uikit/less/components/slider.less';
+@import '../bower_components/uikit/less/components/slidenav.less';
+// PAGE FRAMEWORK OVERRIDES
+@dotnav-width: @base-body-font-size;
+@overlay-panel-background: fadeout(@white, 20%);
+// PAGE SECTION STYLES
+
+/* #hero, #about, #contact, etc. */
+
+//NAVBAR BLOG
+nav {
+	background: transparent;
+	position: fixed;
+	width: 100%;
+	text-align: right;
+	top: 0;
+	z-index: 20;
+	.nav-container {
+		box-shadow: 0 2px 11px -3px @black;
+	}
+	.contact-num {
+		.soft-transition();
+		&:hover {
+			color: @zombie!important;
+		}
+	}
+	div {
+		width: 254px;
+		background: @zombie;
+		float: right;
+		height: 47px;
+		border-radius: 25px 0 0 25px;
+		ul {
+			list-style: none;
+			padding: 10px 20px 10px 0;
+			margin: 0;
+			width: auto;
+			li {
+				position: relative;
+				display: inline-block;
+				width: auto;
+				a.icon-nav {
+					padding: 0 4px;
+					span {
+						font-size: @icon-font-size;
+						color: @cloudburst;
+						.soft-transition();
+					}
+					&:hover {
+						span {
+							color: @oldbrick;
+						}
+					}
+				}
+			}
+		}
+	}
+	.share-nav {
+		left: -195px!important;
+		height: auto !important;
+		ul {
+            line-height: 1.9;
+            text-align: left;
+            padding: 0 8px 0 8px;
+			li:first-child {
+				//padding-right: 10px;
+			}
+			li {
+				color: @white;
+				display: inline-block;
+				width: auto;
+				a {
+					padding: 0px;
+					.soft-transition();
+					color: @white;
+					span {
+						color: @white;
+						font-size: @icon-font-size;
+						.soft-transition();
+					}
+					&:hover {
+						span {
+							color: @zombie;
+						}
+					}
+				}
+			}
+		}
+		.arrow-up {
+			.custom-arrowup(67%);
+		}
+		.share-arrow-up {
+			left: 75% !important;
+		}
+	}
+	.search-nav {
+		left: -230px!important;
+		@media @width-960 {
+			left: -360px!important;
+		}
+		.search-form {
+			position: relative; //test
+			span {
+				cursor: pointer;
+				position: absolute;
+				top: -7px;
+				right: -3px;
+				padding: 15px;
+				border-top-right-radius: 20px;
+				background: @zombie;
+				border-bottom-right-radius: 20px;
+				color: @oldbrick;
+			}
+			input {
+				width: 70%;
+				@media @width-960 {
+					width: 315px;
+				}
+				height: 42px;
+				border-top-left-radius: 20px;
+				border-bottom-left-radius: 20px;
+				border: 1px solid @zombie;
+				margin-right: 40px;
+				margin-top: -7px;
+				background: @oldbrick;
+				color: @zombie;
+				font-size: 16px;
+				padding-left: 15px;
+				outline: 0;
+				padding-right: 15px;
+				@media @width-960 {
+					width: 78%;
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+				&::placeholder {
+					color: @zombie;
+					padding-right: 50px !important;
+				}
+			}
+		}
+		.arrow-up {
+			.custom-arrowup(79%);
+		}
+		.search-arrow-up {
+			left: 88% !important;
+			@media @width-960 {
+				left: 92% !important;
+			}
+		}
+	}
+	.call-nav {
+		left: -105px!important;
+		.arrow-up {
+			.custom-arrowup(33%);
+		}
+		.call-arrow-up {
+			left: 41% !important;
+		}
+	}
+	span.uk-icon-calendar-plus-o {
+		color: @oldbrick !important;
+	}
+}
+
+// END NAVBAR STYLES
+//HERO BANNER STYLES
+//HERO BANNER STYLES
+.error-page {
+	//height: 100vh;
+	position: relative;
+	height: auto;
+	max-width: 100%;
+	background-color: @white;
+	padding-bottom: 80px;
+	.section-border-radius();
+	@media @width-960 {
+		.section-border-radius-lg();
+	}
+        a {
+            display: inline-block;
+            color: @cloudburst;
+            text-decoration: none;
+            font-weight: bold;
+            @media @width-768 {
+                padding-bottom: 10px;
+            }
+            &::after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 1px;
+                background: @cloudburst;
+                transition: width .3s;
+            }
+            &:hover {
+                &::after {
+                    width: 100%; //transition: width .3s;
+                }
+            }
+        }
+	z-index: 9; //.background-image(rgba(29, 51, 74,.8),'../images/hero-banner-bg.jpg',no-repeat center center fixed, cover);
+	.logo {
+		padding: 80px 0 0 0;
+		text-align: center;
+		h1,
+		h3,
+		p {
+			color: @cloudburst;
+			text-align: center;
+		}
+		img {
+			width: 150px;
+		}
+	}
+	@media @width-768 {
+		.container {
+			margin: 50px 120px 50px 120px;
+			width: auto;
+		}
+	}
+	@media @width-960 {
+		.container {
+			margin: 80px 200px 80px 200px;
+			width: auto;
+		}
+	}
+	@media @width-1024 {
+		.container {
+			margin: 80px auto;
+			width: 50%;
+		}
+		.booking-btn {
+			padding-top: 80px;
+		}
+	}
+}
+
+//END OF HERO BANNER STYLES
+//blog goto top
+.goTo-top-container {
+	.arrowUp-cirle-container();
+}
+
+.goTo-top {
+	bottom: -235px;
+	@media @width-960 {
+		bottom: -200px;
+	}
+	.arrowUp-cirle();
+}
+
+// footer overide
+.bottom-footer {
+	   .agreement {
+        text-align: left;
+        padding: 55px 25px 0px 25px;
+        font-size: 12px;
+        span {
+            color: @zombie;
+        }
+        a {
+            display: inline-block;
+            color: @zombie;
+            text-decoration: none;
+            font-weight: bold;
+            @media @width-768 {
+                padding-bottom: 10px;
+            }
+            &::after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 1px;
+                background: @zombie;
+                transition: width .3s;
+            }
+            &:hover {
+                &::after {
+                    width: 100%; //transition: width .3s;
+                }
+            } // .terms {
+            //     display: inline-block;
+            //     color: @zombie;
+            //     text-decoration: none;
+            //     outline: none;
+            //     .soft-transition();
+            //     &:hover {
+            //         color: @white;
+            //     }
+            // }
+            // .policy {
+            //     display: inline-block;
+            //     color: @zombie;
+            //     text-decoration: none;
+            //     outline: none;
+            //     .soft-transition();
+            //     &:hover {
+            //         color: @white;
+            //     }
+            // }
+            // &:hover {
+            //     text-decoration: none;
+            // }
+        }
+    }
+}

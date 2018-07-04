@@ -1,0 +1,57 @@
+Title: Hero
+
+----
+
+Tab1: 
+
+----
+
+Hero-title: Carlingford Chiropractic Centre
+
+----
+
+Hero-background-image: blogcover.jpg
+
+----
+
+Hero-slide-text: 
+
+- 
+  hero_slide: >
+    Lorem ipsum dolor sit amet, id tamquam
+    sententiae appellantur vix, mea nullam
+    diceret corpora cu. Movet numquam sed
+    ut, et menandri comprehensam mea. Mei
+    solum singulis ad, vel affert inermis
+    appetere ne. Ut nam debet eruditi
+    denique. Sit ea eleifend intellegam,
+    ferri possit et nam, sea nemore mentitum
+    oportere ei. Sea eu eros contentiones,
+    primis aliquid voluptaria per id, mea ne
+    accusam referrentur.
+- 
+  hero_slide: >
+    Lorem ipsum dolor sit amet, id tamquam
+    sententiae appellantur vix, mea nullam
+    diceret corpora cu. Movet numquam sed
+    ut, et menandri comprehensam mea. Mei
+    solum singulis ad, vel affert inermis
+    appetere ne. Ut nam debet eruditi
+    denique. Sit ea eleifend intellegam,
+    ferri possit et nam, sea nemore mentitum
+    oportere ei. Sea eu eros contentiones,
+    primis aliquid voluptaria per id, mea ne
+    accusam referrentur.
+- 
+  hero_slide: >
+    Lorem ipsum dolor sit amet, id tamquam
+    sententiae appellantur vix, mea nullam
+    diceret corpora cu. Movet numquam sed
+    ut, et menandri comprehensam mea. Mei
+    solum singulis ad, vel affert inermis
+    appetere ne. Ut nam debet eruditi
+    denique. Sit ea eleifend intellegam,
+    ferri possit et nam, sea nemore mentitum
+    oportere ei. Sea eu eros contentiones,
+    primis aliquid voluptaria per id, mea ne
+    accusam referrentur.

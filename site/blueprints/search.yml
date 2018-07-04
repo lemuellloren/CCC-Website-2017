@@ -1,0 +1,44 @@
+title: Search
+icon: search
+files:
+  sortable: true
+
+pages: false
+
+options: 
+  template: false
+  status: false
+  url: false
+  delete: false
+  preview: false
+
+files: false
+
+fields:
+  search_result_query: 
+    label: Text For 1 Search Result
+    type: text
+    placeholder: Found 1 result for "--SEARCHTERM--".
+    width: 1/2
+    required: true
+    help: >
+      Use "--SEARCHTERM--" to represent the searched string.
+          
+  many_result: 
+    label: Text For Multiple Search Results
+    type: text
+    placeholder: Found --RESULTCOUNT-- results for "--SEARCHTERM--".
+    width: 1/2
+    required: true
+    help: >
+      Use "--SEARCHTERM--" to represent the searched string.<br>
+      Use "--RESULTCOUNT--" to represent the number of results.
+
+  nosearchfound:
+    label: Text For No Search Result
+    type: text
+    placeholder: No results found for "--SEARCHTERM--".
+    width: 1/2
+    required: true
+    help: >
+      Use "--SEARCHTERM--" to represent the searched string.

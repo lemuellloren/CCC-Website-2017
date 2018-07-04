@@ -1,0 +1,66 @@
+atitle: Article
+icon: newspaper-o
+pages: false
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+  fields:
+    alt_text:
+      label: Alt Text
+      type: text
+fields:
+  title:
+    label: Title
+    type:  title
+    
+  mainImage:
+    label: Featured Image
+    type: image
+    help: >
+      Image used by search engines and social media sites when previewing this page.
+      Ideal image size is 1200(wide)x630(tall)pixels - larger images will be resized and cropped automatically.
+  is_comments:
+    label: Article Comment
+    type: checkbox
+    text: Allow comments?
+    help: >
+      Tick to allow comments in the article (Disqus).
+  teaser:
+    label: Teaser
+    type: textarea
+    validate: 
+      minLength: 0
+      maxLength: 300
+    required: true
+    help: >
+      Teaser text appears alongside the title.
+  text:
+    label: Text
+    type: textarea
+  author:
+    label: Author
+    type: text
+    required: true
+    width: 1/2
+    placeholder: John Doe
+    help: >
+      Author of the published aricle
+  date:
+    icon: calendar
+    label: Publication Date
+    type: datetime
+    format: MM/DD/YYYY
+    placeholder: Select a date…
+    required: true
+    default:
+      date: now
+      time: now
+    width: 1/2
+  tags:
+    label: Tags
+    type: tags
+    help: >
+      Good for SEO. Read more at http://www.wordstream.com/meta-tags

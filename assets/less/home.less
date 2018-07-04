@@ -1,0 +1,1445 @@
+    // BASE IMPORT
+    @import '_base';
+    @import '_hover'; // PAGE FRAMEWORK COMPONENT IMPORT
+    @import '../bower_components/uikit/less/components/slideshow.less';
+    @import '../bower_components/uikit/less/components/dotnav.less';
+    @import '../bower_components/uikit/less/components/accordion.less';
+    @import '../bower_components/uikit/less/components/slider.less';
+    @import '../bower_components/uikit/less/components/slidenav.less'; // PAGE FRAMEWORK OVERRIDES
+    @dotnav-width: @base-body-font-size;
+    @overlay-panel-background: fadeout(@white, 20%); // PAGE SECTION STYLES
+    /* #hero, #about, #contact, etc. */
+
+    // GLOBAL NAVBAR OVERIDES
+    nav {
+        .icon-nav {
+            @media @width-960 {
+                margin-left: -15px;
+            }
+        }
+        @media @width-960 {
+            .text-menu {
+                margin-right: 0.7rem;
+            }
+        }
+        @media @width-960 {
+            .search-nav {
+                left: -350px!important;
+            }
+            .share-nav {
+                left: -188px!important;
+            }
+            .call-nav {
+                left: -100px!important;
+            }
+        }
+    } // END
+    //HERO BANNER STYLES
+    .hero-banner {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        background: @zombie;
+        height: auto;
+        @media (max-width: 320px) and (max-height: 568px) and (orientation: portrait) {
+            // height: 100vh !important;
+        }
+        .hero-90vh {
+            position: relative;
+            max-width: 100%;
+            padding: 0px;
+            height: 95vh;
+            .section-border-radius();
+            @media @width-960 {
+                .section-border-radius-lg();
+            }
+            @media @width-768 {
+                top: -80px;
+            }
+            @media (max-width: 320px) and (max-height: 568px) and (orientation: portrait) {
+                height: 95vh !important;
+            }
+            @media (max-width: 800px) {
+                // height: 100% !important;
+            }
+            @media (max-width: 600px) {
+                height: 95vh !important;
+            }
+            @media (max-width: 320px) and (max-height: 480px) and (orientation: portrait) {
+                height: 650px !important;
+            }
+            @media (max-width: 480px) and (orientation: landscape) {
+                height: 550px !important;
+            }
+            @media (max-width: 568px) and (orientation: landscape) {
+                height: 550px !important;
+            }
+            @media (max-width: 667px) and (orientation: landscape) {
+                height: 550px !important;
+            }
+            @media (max-width: 736px) and (orientation: landscape) {
+                height: 550px !important;
+            }
+            @media (max-width: 1920px) and (max-height: 1080px) and (orientation: landscape) {
+                height: 95vh;
+            }
+            .container {
+                .logo {
+                    padding: 80px 25px 0 25px;
+                    height: 30vh;
+                    @media (max-width: 320px) and (max-height: 568px) and (orientation: portrait) {
+                        height: 25vh !important;
+                        padding: 80px 25px 20px 25px;
+                    }
+                    @media (max-width: 320px) and (max-height: 480px) and (orientation: portrait) {
+                        height: 40vh !important;
+                        padding: 80px 25px 20px 25px;
+                    }
+                    @media (max-width: 736px) and (orientation: landscape) {
+                        height: 30vh !important;
+                        padding: 80px 25px 20px 25px;
+                    }
+                    @media (max-width: 667px) (orientation: landscape) {
+                        height: 30vh !important;
+                        padding: 80px 25px 20px 25px;
+                    }
+                    @media (max-width: 568px) and (orientation: landscape) {
+                        height: 45vh !important;
+                        padding: 80px 25px 20px 25px;
+                    }
+                    @media (max-width: 480px) and (orientation: landscape) {
+                        height: 45vh !important;
+                        padding: 80px 25px 20px 25px;
+                    }
+                    @media (max-width: 1920px) and (max-height: 1080px) and (orientation: landscape) {
+                        padding: 150px 25px 0 25px; //height: 20vh
+                        height: auto;
+                    }
+                    h1 {
+                        color: @white;
+                        font-weight: 500;
+                        @media (max-width: 320px) and (max-height: 568px) and (orientation: portrait) {
+                            font-size: 25px;
+                            line-height: 1.3
+                        }
+                        @media (max-width: 360px) {
+                            font-size: 30px;
+                            line-height: 1.3
+                        }
+                        @media (max-width: 375px) {
+                            font-size: 35px;
+                            line-height: 1.3
+                        }
+                        @media (max-width: 320px) {
+                            font-size: 25px;
+                            line-height: 1.3
+                        }
+                        @media (min-width: 480px) {
+                            font-size: 27px;
+                            line-height: 1.3
+                        }
+                        @media (min-width: 412px) {
+                            font-size: 35px;
+                            line-height: 1.3
+                        }
+                    }
+                }
+                .slideshow {
+                    height: 40vh;
+                    @media (max-width: 320px) and (max-height: 568px) and (orientation: portrait) {
+                        height: 42vh !important;
+                    }
+                    @media (max-width: 320px) and (max-height: 480px) and (orientation: portrait) {
+                        height: 55vh !important;
+                    }
+                    @media (max-width: 736px) and (orientation: landscape) {
+                        height: 65vh !important;
+                    }
+                    @media (max-width: 667px) and (orientation: landscape) {
+                        height: 70vh !important;
+                    }
+                    @media (max-width: 568px) and (orientation: landscape) {
+                        height: 80vh !important;
+                    }
+                    @media (max-width: 480px) and (orientation: landscape) {
+                        height: 80vh !important;
+                    }
+                }
+            }
+            .booking-btn {
+                text-align: right;
+                margin-bottom: 45%;
+            }
+            .slideshow {
+                //padding: 0 20px;
+                position: relative;
+                .uk-slideshow {
+                    height: 100px !important;
+                    overflow: hidden;
+                    @media @width-1024 {
+                        margin-left: 25px;
+                    }
+                    li {
+                        width: 80%;
+                        margin-left: 30px;
+                        @media @width-1024 {
+                            width: 100%;
+                            text-align: left;
+                        }
+                        @media @width-1024 {
+                            margin-left: 0;
+                        }
+                        p {
+                            font-weight: 300;
+                            color: @white;
+                            font-size: 15px;
+                            @media (max-width: 320px) and (max-height: 568px) and (orientation: portrait) {
+                                // height: 10vh;
+                                overflow: hidden;
+                            }
+                        }
+                        .text-style-blue-bg();
+                    }
+                }
+                .uk-dotnav {
+                    padding: 0 5px;
+                    li {
+                        a {
+                            width: 8px;
+                            height: 8px;
+                            border: 1px solid @white;
+                            background: transparent;
+                        }
+                        &.uk-active {
+                            a {
+                                background: @white;
+                            }
+                        }
+                    }
+                }
+                .uk-dotnav>* {
+                    padding-left: 10px;
+                }
+                .uk-position-bottom {
+                    bottom: 0;
+                    left: 25px;
+                }
+                .book-button-zombie {
+                    font-weight: 500;
+                    position: absolute;
+                    right: -25px;
+                    @media @width-1024 {
+                        right: 0;
+                    }
+                    bottom: -90px;
+                    .booking-btn(@zombie, @cloudburst);
+                    .float-right-65();
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    display: inline-block;
+                }
+                a.next-section-btn {
+                    font-size: 36px;
+                    position: absolute;
+                    right: 25px;
+                    bottom: 0;
+                    @media @width-960 {
+                        // bottom: 40%;
+                    }
+                    padding: 5px 12px;
+                    color: #fff;
+                    border: 2px solid #fff;
+                    border-radius: 50px;
+                    .soft-transition();
+                    &:hover {
+                        color: @cloudburst !important;
+                        border: 2px solid @zombie !important;
+                        background: @zombie;
+                    }
+                }
+            }
+            @media @width-768 {
+                .container {
+                    width: auto;
+                    margin: 50px 120px 50px 120px;
+                }
+            }
+            @media @width-960 {
+                .container {
+                    width: auto;
+                    margin: 80px 200px 80px 200px;
+                }
+            }
+            @media @width-1024 {
+                .container {
+                    margin: 80px auto;
+                    .width-med();
+                }
+                .booking-btn {
+                    padding-top: 40px;
+                }
+            }
+        }
+    } //END OF HERO BANNER STYLES
+    //PROMO STYLES
+    .promo {
+        //.background-image(rgba(233, 217, 160,.8),'../images/promo-bg.jpg',no-repeat center center fixed, cover);
+        //background: #E9D9A0;
+        position: relative;
+        max-width: 100%;
+        margin-top: -90px;
+        padding: 110px 25px 50px 25px;
+        text-align: center;
+        text-align: center;
+        color: @cloudburst;
+        .section-border-radius();
+        @media @width-960 {
+            margin-top: -210px;
+            padding-top: 200px;
+        }
+        @media @width-960 {
+            .section-border-radius-lg();
+        }
+        #promo-scroll {
+            margin-top: 45px;
+            @media @width-768 {
+                margin-top: -70px;
+                ;
+            }
+            @media (max-width: 320px) and (max-height: 568px) and (orientation: portrait) {
+                margin-top: -20px;
+            }
+        }
+        h1 {
+            font-style: italic;
+            color: @cloudburst;
+            @media @width-768 {
+                text-align: left;
+            }
+            em {
+                color: @oldbrick;
+            }
+        }
+        p {
+            padding: 0 0 30px 0;
+            text-align: left;
+        }
+        .promo-content {
+            text-align: left;
+            padding: 0 0 30px 0;
+            .text-style-zombie-bg();
+        }
+        .book-button-white {
+            font-weight: 500;
+            position: relative;
+            left: -25px;
+            .booking-btn(@white, @cloudburst);
+            .float-left-65();
+            @media @width-768 {
+                left: 0;
+            }
+        }
+        @media @width-768 {
+            .promo-container {
+                margin: 80px auto;
+                .width-med();
+            }
+        }
+    } //END OF PROMO STYLES
+    //TREAT STYLES
+    .treat-section-no-promo {
+        position: relative;
+        margin-top: -90px;
+        padding: 110px 0 50px 0;
+        text-align: center;
+        background: @oldbrick;
+        .section-border-radius();
+        @media @width-768 {
+            margin-top: -240px;
+            padding-top: 150px;
+        }
+        @media @width-960 {
+            margin-top: -400px;
+            padding-top: 280px
+        } // @media @width-1366 {
+        //     margin-top: -300px;
+        //     padding-top: 250px;
+        // }
+        // @media @width-1024 {
+        //     margin-top: -340px;
+        //     padding-top: 250px;
+        // }
+        @media @width-960 {
+            .section-border-radius-lg();
+        }
+        .treat-container {
+            padding: 15px;
+            text-align: center;
+            @media @width-768 {
+                margin: 80px auto;
+                .width-med();
+            }
+            .treat-title {
+                width: 100%;
+                text-align: center;
+                h1 {
+                    text-align: center;
+                    color: @zombie;
+                    @media @width-768 {
+                        text-align: left; //padding-top: 180px;
+                    }
+                    @media @width-1024 {
+                        //margin-top: 80px;
+                    }
+                }
+                p {
+                    width: 100%;
+                    text-align: center;
+                    color: @zombie;
+                    @media @width-768 {
+                        text-align: left;
+                    }
+                }
+                .text-style-red-bg();
+            }
+            .treat-booking {
+                position: relative;
+                right: -15px;
+                margin-top: -80px;
+                text-align: right;
+                .book-button-treat {
+                    .booking-btn(@zombie, @cloudburst);
+                    .float-right-65();
+                    font-weight: 500;
+                    right: 0;
+                    display: inline-block;
+                    margin: 100px 0 0 0; //width: 75%;
+                }
+                @media @width-960 {
+                    position: relative;
+                    margin-top: -30px;
+                    text-align: right;
+                }
+            }
+            .muscular-nav {
+                ul {
+                    position: relative;
+                    z-index: 2;
+                    top: 30px;
+                    right: 0;
+                    left: -55px;
+                    width: auto;
+                    margin-right: 0;
+                    @media @width-768 {
+                        left: -75px;
+                    }
+                    @media @width-960 {
+                        left: -100px;
+                    }
+                    li {
+                        display: inline-block;
+                        margin-left: 59px;
+                        list-style: none;
+                        @media @width-768 {
+                            margin-left: 109px;
+                        }
+                        @media @width-960 {
+                            margin-left: 157px;
+                        }
+                        &.uk-active a {
+                            opacity: .5;
+                        }
+                        a {
+                            font-size: @p;
+                            text-decoration: none;
+                            color: @zombie;
+                            outline: none;
+                            &.active,
+                            &:focus {
+                                opacity: .5;
+                            }
+                            span {
+                                font-size: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .HYPE_element {
+            transition: all 0.3s ease;
+        }
+    } //END OF TREAT STYLES
+    //TREAT STYLES
+    .treat-section {
+        position: relative;
+        margin-top: -90px;
+        padding: 110px 0 50px 0;
+        text-align: center;
+        background: @oldbrick;
+        .section-border-radius();
+        @media @width-768 {
+            margin-top: -140px;
+            padding-top: 140px;
+        }
+        @media @width-960 {
+            margin-top: -380px;
+            padding-top: 380px;
+        } // @media @width-1366 {
+        //     margin-top: -300px;
+        //     padding-top: 250px;
+        // }
+        // @media @width-1024 {
+        //     margin-top: -340px;
+        //     padding-top: 250px;
+        // }
+        @media @width-960 {
+            .section-border-radius-lg();
+        }
+        .treat-container {
+            padding: 15px;
+            text-align: center;
+            @media @width-768 {
+                margin: 80px auto;
+                .width-med();
+            }
+            .treat-title {
+                width: 100%;
+                text-align: center;
+                h1 {
+                    text-align: center;
+                    color: @zombie;
+                    @media @width-768 {
+                        text-align: left; //padding-top: 180px;
+                    }
+                    @media @width-1024 {
+                        //margin-top: 80px;
+                    }
+                }
+                p {
+                    width: 100%;
+                    text-align: center;
+                    color: @zombie;
+                    @media @width-768 {
+                        text-align: left;
+                    }
+                }
+                .text-style-red-bg();
+            }
+            .treat-booking {
+                position: relative;
+                right: -15px;
+                margin-top: -80px;
+                text-align: right;
+                .book-button-treat {
+                    .booking-btn(@zombie, @cloudburst);
+                    .float-right-65();
+                    font-weight: 500;
+                    right: 0;
+                    display: inline-block;
+                    margin: 100px 0 0 0; //width: 75%;
+                }
+                @media @width-960 {
+                    position: relative;
+                    margin-top: -30px;
+                    text-align: right;
+                }
+            }
+            .muscular-nav {
+                ul {
+                    position: relative;
+                    z-index: 2;
+                    top: 30px;
+                    right: 0;
+                    left: -55px;
+                    width: auto;
+                    margin-right: 0;
+                    @media @width-768 {
+                        left: -75px;
+                    }
+                    @media @width-960 {
+                        left: -100px;
+                    }
+                    li {
+                        display: inline-block;
+                        margin-left: 59px;
+                        list-style: none;
+                        @media @width-768 {
+                            margin-left: 109px;
+                        }
+                        @media @width-960 {
+                            margin-left: 157px;
+                        }
+                        &.uk-active a {
+                            opacity: .5;
+                        }
+                        a {
+                            font-size: @p;
+                            text-decoration: none;
+                            color: @zombie;
+                            outline: none;
+                            &.active,
+                            &:focus {
+                                opacity: .5;
+                            }
+                            span {
+                                font-size: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .HYPE_element {
+            transition: all 0.3s ease;
+        }
+    } //END OF TREAT STYLES
+    //TREAT MODALS STYLES
+    #parts {
+        background: rgba(141, 34, 36, .8) !important;
+    }
+
+    .treat-modal {
+        width: 600px !important;
+        height: auto;
+        padding: 0;
+        border-radius: 25px;
+        background-color: @zombie;
+        @media @width-1024 {
+            width: 950px !important;
+        }
+        h1 {
+            color: @cloudburst;
+            line-height: 1;
+        }
+        p,
+        li {
+            color: @cloudburst;
+        }
+        .uk-close {
+            position: relative !important;
+            top: 20px !important;
+            left: -20px !important;
+        }
+        .uk-close.treat-close {
+            .btn-close-modal();
+        }
+        .book-button-treat-modal {
+            .booking-btn(@cloudburst, @zombie);
+            .float-right-65(); //width: 75%;
+            font-weight: 500;
+            position: relative;
+            display: inline-block;
+            outline: none;
+        }
+        .treat-modal-desc {
+            .text-style-zombie-bg();
+            padding: 30px;
+            @media @width-960 {
+                padding: 30px;
+                margin: 0;
+            }
+        }
+        .treat-booking-modal {
+            position: relative;
+            top: -20px;
+            text-align: right;
+            @media @width-960 {
+                top: -60px;
+            }
+        }
+    } //END TREAT MODALS STYLES
+    //SERVICES STYLES
+    .services {
+        position: relative;
+        margin-top: -90px;
+        padding: 110px 0 50px 0;
+        text-align: center;
+        background: @white;
+        .section-border-radius();
+        @media @width-960 {
+            margin-top: -210px;
+            padding-top: 200px;
+            padding-bottom: 150px;
+        }
+        @media @width-960 {
+            .section-border-radius-lg();
+        }
+        @media @width-768 {
+            .service-container {
+                margin-bottom: 70px;
+            }
+        }
+        h1 {
+            color: #1d3351;
+            @media @width-768 {
+                width: auto;
+                margin: 50px 120px 50px 120px;
+                text-align: left;
+            }
+            @media @width-1024 {
+                width: 60%;
+                margin: 80px auto;
+            }
+        }
+        .accordion-container {
+            padding: 5px 0;
+        }
+        .service-content {
+            .text-style-blue-bg();
+            em {
+                color: @zombie;
+            }
+        }
+        .right-acc {
+            text-align: right;
+            overflow: hidden;
+            h2 {
+                .service-accordion-header();
+                .right-position-accordion();
+                padding: 17px 25px 17px 17px; // @media @width-768 {
+                //     padding: 20px 26px 20px 17px;
+                // }
+                @media @width-1024 {
+                    padding: 30px 26px 30px 50px;
+                }
+                span {
+                    float: left;
+                    margin-right: 25px;
+                }
+            }
+            h2.uk-active {
+                @media (max-width: 360px) {
+                    padding: 50px 26px 60px 30px !important;
+                    left: 16px !important;
+                }
+            }
+            div.uk-accordion-content {
+                display: inline-block;
+                width: 75%;
+                height: auto;
+                padding: 0 12px 15px 28px;
+                @media @width-360 {
+                    padding-left: 30px;
+                }
+                @media @width-1024 {
+                    padding-left: 62px;
+                    padding-bottom: 50px;
+                }
+                border-bottom-left-radius: 25px;
+                .img-cont {
+                    position: relative;
+                    right: -5px;
+                    width: 105%;
+                    height: auto;
+                    @media @width-768 {
+                        width: 100%;
+                        right: -12px;
+                    }
+                    @media @width-1024 {
+                        right: -12px;
+                        width: 50%;
+                        float: right;
+                        margin: 0 0 20px 20px;
+                        height: auto;
+                        .soft-transition();
+                    }
+                    img {
+                        width: 100%;
+                        max-width: none;
+                        border-top-left-radius: 39% 48%;
+                        border-bottom-left-radius: 39% 48%;
+                    }
+                }
+                p {
+                    width: 90%;
+                    @media @width-768 {
+                        // width: 50%;
+                        padding: 30px;
+                        margin-bottom: 50px;
+                    }
+                    @media @width-960 {
+                        width: 90%;
+                    }
+                    @media @width-1024 {
+                        width: 80%;
+                        padding: 30px;
+                    }
+                    padding-left: 10px;
+                    text-align: justify;
+                    color: @zombie;
+                }
+                .book-button-right-services {
+                    font-weight: 500;
+                    position: relative; //width: 85%;
+                    left: -30px;
+                    @media @width-1024 {
+                        left: -63px;
+                    }
+                    .booking-btn(@zombie, @cloudburst);
+                    .float-left-65();
+                }
+            }
+        }
+        .left-acc {
+            text-align: left;
+            h2 {
+                .service-accordion-header();
+                .left-position-accordion(); // @media @width-768 {
+                //     padding: 20px 26px 20px 17px;
+                // }
+                text-align: right;
+                padding: 17px 25px 17px 17px;
+                @media @width-1024 {
+                    padding: 30px 50px 30px 26px;
+                }
+                span {
+                    float: right;
+                    margin-left: 30px;
+                    @media (max-width: 360px) {
+                        display: block !important;
+                    }
+                }
+            } // h2.uk-active{
+            //     padding: 78px 49px 30px 26px !important;
+            //     @media @width-1024{
+            //         padding: 78px 49px 30px 71px !important;
+            //     }
+            // }
+            div.uk-accordion-content {
+                display: inline-block;
+                width: 75%;
+                height: auto;
+                padding: 0 30px 15px 12px;
+                @media @width-1024 {
+                    padding-bottom: 50px;
+                    padding-right: 63px;
+                }
+                border-bottom-right-radius: 25px;
+                .img-cont {
+                    position: relative;
+                    left: -15px;
+                    width: 105%;
+                    height: auto;
+                    @media @width-768 {
+                        width: 100%;
+                        right: -12px;
+                    }
+                    @media @width-1024 {
+                        left: -12px;
+                        width: 50%;
+                        float: left;
+                        margin: 0 20px 20px 0;
+                        height: auto;
+                        .soft-transition();
+                    }
+                    img {
+                        max-width: none;
+                        width: 100%;
+                        border-top-right-radius: 39% 48%;
+                        border-bottom-right-radius: 39% 48%;
+                    }
+                }
+                p {
+                    width: 85%;
+                    @media @width-768 {
+                        width: 90%;
+                        padding: 30px;
+                    }
+                    @media @width-960 {
+                        width: 90%;
+                    }
+                    @media @width-1024 {
+                        width: 86%;
+                        padding: 30px;
+                        margin-left: 80px;
+                    }
+                    padding-left: 20px;
+                    text-align: justify;
+                    color: @zombie;
+                }
+                .book-button-left-services {
+                    .booking-btn(@zombie, @cloudburst);
+                    .float-right-65();
+                    font-weight: 500;
+                    position: relative; //width: 85%;
+                    right: -30px;
+                    float: right;
+                    @media @width-1024 {
+                        right: -63px;
+                    }
+                }
+            }
+        }
+        .uk-accordion-content {
+            position: relative;
+            overflow: hidden;
+            height: 0;
+            background: rgb(29, 51, 81);
+            @media @width-1024 {
+                overflow: inherit;
+            }
+        }
+    }
+
+    .services .left-acc div.uk-accordion-content p {
+        padding: 0;
+        margin-left: 120px;
+    }
+
+    .services .right-acc div.uk-accordion-content p {
+        padding: 0px 0px 0px 30px;
+        margin-bottom: 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        .services .left-acc div.uk-accordion-content p {
+            padding: 0;
+            margin-left: 17px;
+            width: 95%;
+        }
+        .services .right-acc div.uk-accordion-content p {
+            padding: 0;
+            margin-bottom: 0;
+            width: 95%;
+        }
+    } //END OF SERVICES STYLES
+    //ABOUT US STYLES
+    .about {
+        position: relative;
+        margin-top: -90px;
+        padding: 90px 0 50px 0;
+        text-align: center;
+        background: @cloudburst;
+        .section-border-radius();
+        @media @width-960 {
+            margin-top: -380px;
+            padding-top: 280px;
+            padding-bottom: 100px;
+        }
+        @media @width-960 {
+            .section-border-radius-lg();
+        }
+        img.cover-image {
+            width: 100%;
+            margin-top: -55px;
+            object-fit: cover;
+            @media @width-960 {
+                height: 1000px;
+                margin-top: -150px;
+            }
+        }
+        .logo-aboutUs {
+            margin-bottom: 50px;
+            @media @width-768 {
+                margin-bottom: 70px;
+            }
+            @media @width-1024 {
+                margin-bottom: 90px;
+            }
+        }
+        .about-content {
+            position: relative;
+            padding: 20px 25px 20px 25px;
+            text-align: left;
+            color: #e9d9a0;
+            @media @width-768 {
+                width: 50%;
+                margin: auto;
+            }
+            @media @width-1024 {
+                .width-lg();
+            }
+            img {
+                position: absolute;
+                top: -40px;
+                max-width: 125px;
+                @media @width-768 {
+                    top: -60px;
+                    max-width: 170px;
+                }
+                @media @width-1024 {
+                    top: -75px;
+                    max-width: 200px;
+                }
+            }
+            h1 {
+                font-weight: 300;
+                color: #e9d9a0;
+            }
+            p {
+                font-weight: 300;
+                @media @width-768 {
+                    margin-bottom: 60px;
+                }
+                @media @width-1024 {
+                    margin-bottom: 60px;
+                }
+            }
+            .section-links {
+                position: relative;
+                text-align: right;
+                .call-button-about {
+                    position: relative;
+                    position: absolute;
+                    right: -25px;
+                    margin-bottom: 0;
+                    text-align: right;
+                    .call-btn(@zombie, @cloudburst);
+                    .float-right-50();
+                    span {
+                        padding: 0 0 0 20px;
+                    } //display: inline-block;
+                }
+                .book-button-about {
+                    .booking-btn(@white, @cloudburst);
+                    .float-right-65();
+                    font-weight: 500;
+                    float: right;
+                    right: -25px;
+                    display: inline-block;
+                    margin: 100px 0 0 0; //width: 75%;
+                }
+            }
+            .about-body {
+                .text-style-blue-bg();
+                em {
+                    color: @zombie;
+                }
+            }
+        }
+    } //END OF ABOUT US STYLES
+    //CONTACT US STYLES
+    .contact-us {
+        position: relative;
+        margin-top: -90px;
+        padding: 40px 0 50px 0;
+        text-align: center;
+        background: @zombie;
+        .section-border-radius();
+        @media @width-960 {
+            margin-top: -210px;
+            padding-top: 20px;
+        }
+        @media @width-960 {
+            .section-border-radius-lg();
+        }
+        @media @width-960 {
+            .contact-address {
+                width: 293px; //padding-top: 130px;
+            }
+        }
+        .map-container {
+            background: #dfdfdf;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            .section-border-radius();
+            @media @width-960 {
+                .section-border-radius-lg();
+                height: 700px;
+            }
+            iframe {
+                pointer-events: none;
+                @media @width-960 {
+                    height: 800px;
+                }
+            }
+            iframe.clicked {
+                pointer-events: auto !important;
+            }
+            .uk-overlay-panel {
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 20px;
+                color: #fff;
+                position: absolute;
+                height: 470px;
+                width: 100%;
+                background: transparent;
+                z-index: 99;
+            }
+        }
+        .uk-icon-hover {
+            color: @cloudburst;
+            .soft-transition();
+            &:hover {
+                color: @white;
+            }
+        }
+        .map-content {
+            padding: 40px 25px 0 25px;
+            @media @width-768 {
+                width: 50%;
+                margin: 80px auto;
+            }
+            @media @width-960 {
+                width: 80%; // margin: 80px auto;
+                // width: 50%;
+                margin: 60px auto;
+            }
+            @media @width-1024 {
+                // margin: 80px auto;
+                // width: 72%;
+                width: 920px;
+                padding: 5% 6% 5% !important;
+            }
+            h1,
+            p {
+                color: @cloudburst;
+            }
+            @media @width-960 {
+                h1 {
+                    text-align: left;
+                }
+            }
+            p {
+                font-size: 16px;
+                text-align: left;
+                margin-left: -12px; 
+                @media @width-960 {
+                    font-size: 24px;
+                    //margin-bottom: 50px;
+                }
+            }
+    
+            .uk-icon-envelope {
+                &::before {
+                    position: relative !important;
+                    left: 5px !important;
+                }
+            }
+           
+            .share-on {
+                position: relative;
+                top: 19px;
+                padding-right: 15px;
+                pointer-events: none;
+            }
+            .share-on-sm {
+                margin: 0;
+                opacity: 0.5;
+            }
+            ul {
+                margin-bottom: 40px;
+                padding-left: 40px;
+                list-style: none; // @media @width-960 {
+                @media @width-960 {
+                    margin-bottom: 10px;
+                    padding-left: 27px;
+                } //       display: flex;
+                // }
+                li {
+                    position: relative;
+                    display: block;
+                    text-align: left;
+                    color: @cloudburst;
+                    span {
+                        font-size: @icon-font-size;
+                        position: absolute;
+                    }
+                    a {
+                        color: @cloudburst;
+                        .soft-transition();
+                        &:hover {
+                            text-decoration: none;
+                        }
+                        .disabled {
+                            cursor: default;
+                            pointer-events: none;
+                        }
+                    }
+                    &:nth-child(1) {
+                        padding-bottom: 20px;
+                        span {
+                            top: 0;
+                            left: -30px;
+                        }
+                    }
+                    &:nth-child(2) {
+                        span {
+                            top: -3px;
+                            left: -35px;
+                        }
+                    }
+                }
+            }
+            .call-button-contact {
+                position: relative;
+                left: -25px;
+                text-align: left;
+                .call-btn(@cloudburst, @white);
+                .float-left-50();
+                @media @width-768 {
+                    left: 0;
+                }
+            }
+            .book-button-contact {
+                font-weight: 500;
+                position: relative; //width: 80%;
+                left: -25px;
+                .booking-btn(@white, @cloudburst);
+                .float-left-65();
+                @media @width-768 {
+                    left: 0;
+                }
+            }
+        }
+        .contactUs-social {
+            ul.contactshare-list {
+                display: block;
+                margin: -20px 0 0 0;
+                padding: 0 0 0 15px;
+                text-align: left;
+                @media @width-768 {
+                    padding-bottom: 110px;
+                }
+            }
+            .contactUs-group {
+                margin-bottom: 20px;
+                margin-left: -8px;
+                @media @width-768 {
+                    margin-bottom: 0;
+                }
+                display: inline-block !important;
+                span {
+                    top: 0 !important;
+                    right: 0 !important;
+                    left: 0 !important;
+                }
+                opacity: .5;
+                .soft-transition();
+                &:hover {
+                    opacity: 1;
+                }
+                span {
+                    top: 0 !important;
+                    left: 0 !important;
+                    right: 0 !important;
+                }
+            }
+        }
+    } //END OF CONTACT US STYLES
+    //THE BLOG STYLES
+    .blog-section {
+        position: relative;
+        margin-top: -105px;
+        padding: 40px 0 50px 0;
+        text-align: center;
+        background: @zombie;
+        .section-border-radius();
+        @media @width-960 {
+            margin-top: -380px;
+            padding-top: 280px;
+            padding-bottom: 110px;
+        }
+        @media @width-960 {
+            .section-border-radius-lg();
+        }
+        .left-blogButton {
+            position: relative;
+            left: 0;
+            text-align: left;
+            .call-btn2(@cloudburst, @zombie);
+            .float-left-50();
+            @media @width-768 {
+                margin: 50px 0;
+            }
+            @media @width-960 {
+                margin-bottom: 100px;
+            }
+        }
+        .blog-readmore {
+            position: relative;
+            left: -12px;
+            text-align: left;
+            @media @width-960 {
+                left: -22px;
+            }
+            .left-readmore {
+                .call-btn2(@cloudburst, @zombie);
+                .float-left-40();
+                position: relative;
+                left: 0;
+                text-align: left;
+            }
+        }
+        .blogImage {
+            width: 113% auto;
+            width: auto;
+            margin-right: -30px;
+            margin-bottom: 20px;
+            margin-left: -12px;
+            img {
+                border-top-right-radius: 25px;
+                @media @width-768 {
+                    border-top-left-radius: 25px;
+                }
+                @media @width-960 {
+                    border-radius: 10px;
+                }
+            }
+        }
+        .blogSec-container {
+            padding: 60px 0 50px;
+            @media @width-768 {
+                width: auto;
+                margin: auto;
+                padding: 30px 80px;
+            }
+            @media @width-960 {
+                width: auto;
+                margin: 80px auto;
+                padding: 2% 5% 10%;
+            }
+            @media @width-1024 {
+                padding: 1% 0 5% 0;
+                .width-lg();
+            }
+        }
+        .uk-block-primary {
+            display: block;
+            width: 90%;
+            height: auto;
+            padding: 0 30px 15px 12px;
+            text-align: left;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            background: @white;
+            background: #fff;
+            @media @width-768 {
+                border-radius: 25px;
+            }
+            @media @width-690 {
+                width: 100%;
+            }
+            @media @width-960 {
+                width: 100%;
+            }
+        }
+        .uk-article-meta {
+            color: @cloudburst;
+        }
+        .uk-article-lead {
+            color: @cloudburst;
+        }
+        h2 {
+            color: @cloudburst;
+            font-weight: 300;
+        }
+        article.blog-article.uk-article {
+            width: 100%;
+            @media @width-960 {
+                padding: 0 20px 20px 10px;
+            }
+        }
+        .uk-dotnav {
+            bottom: 0;
+            margin-bottom: -35px;
+            margin-left: 10px;
+            padding: 0 5px;
+            @media @width-960 {
+                margin-bottom: -100px;
+            }
+            li {
+                a {
+                    width: 8px;
+                    height: 8px;
+                    border: 1px solid @white;
+                    background: transparent;
+                }
+                &.uk-active {
+                    a {
+                        background: @white;
+                    }
+                }
+            }
+        }
+        .uk-dotnav>* {
+            padding-left: 10px;
+        }
+    } //END OF BLOG STYLES
+    //THE PARTNERS SECTION STYLES
+    .partners-section {
+        position: relative;
+        margin-top: -105px;
+        padding: 40px 0 50px 0;
+        text-align: center;
+        background: @white;
+        .section-border-radius();
+        @media @width-960 {
+            margin-top: -210px;
+            padding-top: 150px;
+        }
+        @media @width-960 {
+            .section-border-radius-lg();
+        }
+        a {
+            display: block;
+        }
+        .partners-container {
+            padding-top: 75px;
+            @media @width-768 {
+                width: 630px;
+                margin: 50px auto;
+                padding: 100px 0 50px 0;
+            }
+            @media @width-960 {
+                width: 700px;
+                margin: 50px auto;
+                padding: 100px 0 50px 0;
+            }
+            @media @width-1024 {
+                margin: 50px auto;
+                padding: 100px 0 50px 0;
+                .width-lg();
+            }
+            .partnersLogo {
+                width: 90%;
+                margin: 0 auto;
+            }
+            .uk-slidenav-previous {
+                @media @width-320max {
+                    left: -10px;
+                }
+                display:block !important;
+                @media @width-768 {
+                    left: -55px;
+                }
+            }
+            .uk-slidenav-next {
+                @media @width-320max {
+                    right: -10px;
+                }
+                display:block !important;
+                @media @width-768 {
+                    right: -55px;
+                }
+            }
+        }
+        h1 {
+            margin-bottom: -30px;
+            padding: 25px;
+            text-align: left;
+            color: @cloudburst;
+            @media @width-1024 {
+                margin-bottom: 0;
+                margin-left: -30px;
+            }
+        }
+        .uk-slidenav-contrast {
+            color: @gray;
+        }
+        .goTo-top-container {
+            .arrowUp-cirle-container();
+        }
+        .goTo-top {
+            bottom: -100px;
+            .arrowUp-cirle();
+        }
+    } //END OF PARTNERS SECTION STYLES

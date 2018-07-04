@@ -1,0 +1,44 @@
+title: Who We Are
+icon: users
+pages: false
+preview: parent
+
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+  preview: false
+
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+  fields:
+    alt_text:
+      label: Alt Text
+      type: text
+fields:
+  title:
+    label: Menu Title
+    type: title
+
+  www_title:
+    label: Section Heading
+    type: text
+
+  www_content:
+    label: Section Content
+    type: textarea
+
+  www_background_image:
+    label: Cover Image
+    type: image
+    help: >
+      The image should be 2000(w)x1500(h) pixels. Larger images will be automatically scaled down and cropped.
+
+  www_logo:
+    label: Logo
+    type: image

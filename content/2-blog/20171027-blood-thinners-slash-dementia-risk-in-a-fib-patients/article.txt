@@ -1,0 +1,72 @@
+Title: Blood thinners slash dementia risk in A-fib patients
+
+----
+
+Coverimage: bottle-of-bills-with-stethoscope.jpg
+
+----
+
+Date: 2017-10-27
+
+----
+
+Text: 
+
+### **New research published in the European Heart Journal suggests that blood-thinning drugs such as warfarin may protect not only against stroke, but also against dementia in people who have atrial fibrillation.**
+
+The new study was carried out by Leif Friberg and Mårten Rosenqvist, from the Karolinska Institute in Stockholm, Sweden. They started out from the already established link between atrial fibrillation (A-fib) and dementia.
+
+A-fib is a common form of irregular heartbeat, or arrhythmia, and studies have shown that patients living with it have a considerably higher risk of developing dementia, including Alzheimer's disease.
+
+Other studies have added that this association has nothing to do with the blood-thinning treatment that most A-fib patients are on.
+
+But the precise role of anticoagulant, or blood-thinning, drugs on dementia risk is not yet known and has not been sufficiently investigated, explain the authors.
+
+One theory suggests that, since anticoagulants prevent stroke by protecting against large blood clots, they should also prevent dementia by protecting against the small blood clots and microinfarctions that characterize it.
+
+To explore this hypothesis, Friberg and Rosenqvist examined the incidence of dementia among patients with A-fib, comparing patients who took anticoagulants with those who did not.
+
+The researchers also wanted to see whether or not the type of anticoagulant made any difference — such as whether newer blood thinners had a different effect on dementia risk when compared with old ones.
+
+### ** Dementia risk cut by nearly half**
+To this end, Friberg and Rosenqvist reviewed the history of 444,106 Swedish patients with A-fib between 2006 and 2014. At the beginning of the study, 54 percent of these patients were not taking oral blood thinners. During the study period, 26,210 of all patients developed dementia.
+
+**A-fib patients who were on a blood-thinning treatment at the beginning of the study were 29 percent less likely to develop dementia than those who were not.
+**
+Also, an "on-treatment analysis" revealed that patients who continued to take the anticoagulants had a 48 percent lower risk of dementia.
+
+Parkinson's disease, alcohol abuse, and the absence of a blood-thinning treatment seemed to be the "strongest predictors for dementia."
+
+The findings provide strong evidence that oral blood thinners may prevent dementia in patients with A-fib. "In order to prove this assumption," they explain, "randomized placebo controlled trials would be needed, but [...] such studies cannot be done because of ethical reasons."
+
+**"It is not possible to give placebo to [A-fib] patients and then wait for dementia or stroke to occur," write Friberg and Rosenqvist.**
+
+Finally, the study found no difference between warfarin — which represents an older generation of anticoagulants — and newer ones.
+
+----
+
+Author: ryuchix
+
+----
+
+Tags: afib,atrial fibrillation,blood thinners,anticoagulants,dementia
+
+----
+
+Mainimage: bottle-of-bills-with-stethoscope.jpg
+
+----
+
+Keywords: blood,thinners,slash
+
+----
+
+Teaser: A-fib is a common form of irregular heartbeat, or arrhythmia, and studies have shown that patients living with it have a considerably higher risk of developing dementia, including Alzheimer's disease.
+
+----
+
+Alt-text: 
+
+----
+
+Is-comments: 0

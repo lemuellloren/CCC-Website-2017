@@ -1,0 +1,41 @@
+title: Hero
+icon: superpowers
+pages: false
+preview: parent
+
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+  preview: false
+
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+  fields:
+    alt_text:
+      label: Alt Text
+      type: text
+fields:
+  title:
+    type: title
+
+  hero_title:
+    label: Section Heading 
+    type: text
+  hero_background_image:
+    label: Background Image
+    type: image
+    help: >
+      The image should be 2000(w)x1500(h) pixels. Larger images will be automatically scaled down and cropped.
+  hero_slide_text: 
+    type: structure
+    modalsize: large
+    fields: 
+      hero_slide: 
+        label: Slideshow Text
+        type: textarea 

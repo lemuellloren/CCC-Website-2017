@@ -1,0 +1,37 @@
+Title: This is news
+
+----
+
+Mainimage: 
+
+----
+
+Alt-text: 
+
+----
+
+Is-comments: 0
+
+----
+
+Teaser: zfxsdfsdf
+
+----
+
+Text: 151390
+
+----
+
+Author: Andy Cruz
+
+----
+
+Date: 2017-12-19 13:00
+
+----
+
+Keywords: 
+
+----
+
+Tags: meow

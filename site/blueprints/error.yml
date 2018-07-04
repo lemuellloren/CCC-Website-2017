@@ -1,0 +1,22 @@
+title: Error
+icon: bug
+pages: false
+options:
+  preview: true
+
+files: false
+  
+fields:
+  # ERROR PAGE
+  # =================================================
+  error_header: 
+    label: Heading Text
+    type: text
+    placeholder: Error
+    required: true 
+  error_message: 
+    label: Error Message
+    type: textarea
+    required: true
+    help: >
+        Put site error message here. You can also add download links and images.  

@@ -1,0 +1,23 @@
+title: Help
+icon: question-circle
+options: 
+  preview: true
+  status: false
+  template: false
+  url: false
+  delete: false
+pages: false
+files: false
+fields:
+  instructions:
+    label: Instructions
+    type:  info
+    text: >
+      This page is a guide that teaches you some of the syntax you can use 
+      when editing the content of your site. <strong>Do not read it here.</strong><br><br>
+      Click the 'Open Preview' button on the sidebar, to open this Help Page 
+      as a normal page in your website - a format that will be much easier for you to read and follow!
+  text:
+    label: Text
+    type:  textarea
+    readonly: true

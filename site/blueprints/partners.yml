@@ -1,0 +1,54 @@
+title: Partners and Friends
+icon: user-md
+pages: false
+preview: parent
+
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+  preview: false
+
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+  fields:
+    alt_text:
+      label: Alt Text
+      type: text
+fields:
+  title:
+    type: title
+
+  partners_title:
+    label: Partners Section Heading
+    type: text
+    required: true
+    placeholder: Partners
+  partner_items: 
+    type: structure
+    modalsize: large
+    style: table
+    fields: 
+      partner_name: 
+        label: Partner Name
+        type: text
+        required: true
+        help: >
+          Place name of partner here.
+      partner_link:
+        label: Partner Url
+        type: text
+        help: >
+          Place link url of Partner's website.
+      partner_image: 
+        label: Partner Logo
+        type: image
+        required: true
+        help: >
+          Image should be 200x200 pixels. You can upload larger pictures, but they will be 
+          automatically resized down and cropped, as needed.

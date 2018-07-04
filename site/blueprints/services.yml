@@ -1,0 +1,53 @@
+title: Services
+icon: coffee
+pages: false
+preview: parent
+
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+  preview: false
+
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+  fields:
+    alt_text:
+      label: Alt Text
+      type: text
+fields:
+  title:
+    label: Menu Title
+    type: title
+
+  header_title:
+    label: Section Heading
+    type: title
+    placeholder: Our Treatments
+
+  services_items: 
+    label: Services
+    type: structure
+    modalsize: large
+    entry: >
+      <strong>{{services_name}}</strong><br>
+      {{services_featured_image}}
+
+    fields: 
+      services_name: 
+        label: Service Name
+        type: text
+        required: true
+
+      services_content: 
+        label: Service Content
+        type: textarea
+
+      services_featured_image: 
+        label: Featured Image
+        type: image

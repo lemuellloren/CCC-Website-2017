@@ -1,0 +1,30 @@
+Title: Partners and Friends
+
+----
+
+Tab6: 
+
+----
+
+Partners-title: Partners
+
+----
+
+Partner-items: 
+
+- 
+  partner_name: p1
+  partner_link: http://google.com
+  partner_image: partners.png
+- 
+  partner_name: p2
+  partner_link: http://fb.com
+  partner_image: partners1.png
+- 
+  partner_name: p3
+  partner_link: ""
+  partner_image: partners2.png
+- 
+  partner_name: p4
+  partner_link: ""
+  partner_image: partners3-400x266.png

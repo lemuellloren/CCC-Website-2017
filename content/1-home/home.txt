@@ -1,0 +1,144 @@
+Title: Home
+
+----
+
+Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+
+----
+
+Text: 
+
+## Get started
+
+- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
+- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
+- Follow (twitter: @getkirby) on Twitter for updates
+- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
+- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
+- (link: http://getkirby.com/support text: Get in contact) if you need support.
+
+**Have fun with Kirby!**
+
+----
+
+Hero-title: Carlingford Chiropractic Centre
+
+----
+
+Hero-background-color: 
+
+----
+
+Hero-background-image: 
+
+----
+
+Hero-slide-text: 
+
+- 
+  hero_slide: >
+    Lorem ipsum dolor sit amet, id tamquam
+    sententiae appellantur vix, mea nullam
+    diceret corpora cu. Movet numquam sed
+    ut, et menandri comprehensam mea. Mei
+    solum singulis ad, vel affert inermis
+    appetere ne. Ut nam debet eruditi
+    denique. Sit ea eleifend intellegam,
+    ferri possit et nam, sea nemore mentitum
+    oportere ei. Sea eu eros contentiones,
+    primis aliquid voluptaria per id, mea ne
+    accusam referrentur.
+- 
+  hero_slide: >
+    Duis eloquentiam te eam, an vim
+    salutandi tincidunt. Ipsum clita ei vim.
+    Detracto deleniti eu vel. Stet qualisque
+    ex vis. Habemus accusam sed an, ad mei
+    timeam integre recusabo. Sea ea
+    expetendis efficiantur, amet malis cu
+    per, pro ut ponderum iudicabit
+    forensibus. Pericula disputando an quo.
+- 
+  hero_slide: >
+    Id posse atomorum sapientem eum. Sit
+    mucius tibique no, cu noster
+    theophrastus ius. Te mei tibique
+    accumsan tacimates. Id pro nihil
+    iuvaret, duo et virtute nominati, ei
+    iusto utroque his.
+- 
+  hero_slide: 'Id **solum facilisi intellegam** sea, causae euripidis elaboraret cu has, in sea quando praesent. Ne debet aliquando temporibus usu, duo eu vero prima, est omnium nusquam ea. Legimus vulputate ius cu, regione omittam offendit ad vix. No vel tale aliquam inimicus, ut tale lorem alterum his. Idque altera vituperata vim an. Ne vix mentitum luptatum, probo splendide vix te, has ei cibo epicurei pertinax.'
+
+----
+
+Viewblog: Check our blog
+
+----
+
+Perpage: 8
+
+----
+
+Perpage-paginated: 3
+
+----
+
+Partners-title: Partners and Friends
+
+----
+
+Partner-items: 
+
+- 
+  partner_name: Kirby
+  partner_link: >
+    https://getkirby.com/docs/cheatsheet/panel-fields/structure
+  partner_image: partners1.png
+- 
+  partner_name: Yahoo
+  partner_link: http://yahoo.com
+  partner_image: partners2.png
+- 
+  partner_name: News Portal
+  partner_link: ""
+  partner_image: partners3.png
+- 
+  partner_name: Leet Digital
+  partner_link: http://google.com
+  partner_image: partners.png
+
+----
+
+Location: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.375740032557!2d151.05140795051838!3d-33.77679398058708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a405e7c99613%3A0xa2c479e698c86a74!2sCarlingford+Chiropractic+Centre!5e0!3m2!1sen!2sau!4v1508907657756" width="100%" height="488" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+----
+
+Header-title: How to Find Us
+
+----
+
+Header-subtitle: Carlingford Chiropractic Centre
+
+----
+
+Header-text: News Portal PH does not stream audio, videos or host content of any kind. The audio you listen to and videos you watch are hosted on 3rd party website like Youtube, Facebook and other website that provide similar services..
+
+----
+
+Seo: 
+
+-
+  seo-title: "Carlingford Chiropractic Centre"
+  seo-description: "Carlingford Chiropractic Centre is a Chiropractic care clinic, open in Carlingford for over 25 years. The main Chiropractor is Tim Wade-Ferrell, an Advance"
+
+----
+
+Keyword: carlingford chiropractic,carlingford chiropractor,chiropractor tim wade-ferrell,chiro carlingford,chiropractic care carlingford,activator chiropractor,activator clinic,activator carlingford,leet
+
+----
+
+Mainimage: blogcover.jpg
+
+----
+
+Keywords: Carlingford Chiropractic Centre,care clinic,Carlingford,Tim Wade-Ferrell

@@ -1,0 +1,35 @@
+title: Blogroll
+icon: rss
+pages: false
+preview: parent
+
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+  preview: false
+
+files: false
+
+fields:
+  title:
+    type: title
+
+  viewblog:
+    label: Go To Blog
+    type: text
+    placeholder: Go to our Blog
+    required: true
+    width: 1/2
+    help: >
+      Go To Blog button text
+  perpage:
+    label: Blog Articles To Display
+    type: number
+    min: 3
+    max: 9
+    default: 6
+    width: 1/2
+    help: >
+      Enter how many blog articles to display in blogroll section in the homepage (min=3, max=9)

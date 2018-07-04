@@ -1,0 +1,65 @@
+Title: Blog
+
+----
+
+Text: Blogging with Kirby is as easy as it’s fun. This simple blog shows just a basic implementation of a blogging engine, realized with only a few lines of code. It can easily be extended with tags, categories or whatever feature you need.
+
+----
+
+Perpage: 6
+
+----
+
+Blog-logo: ccc-logo-white.png
+
+----
+
+Blog-background-color: Blue
+
+----
+
+Blog-background-image: blogcover.jpg
+
+----
+
+Popular-tags: Pop tags
+
+----
+
+Number-of-popular-tags: 10
+
+----
+
+Perpage-paginated: 5
+
+----
+
+Seo: 
+
+-
+  seo-title: "Blog - Carlingford Chiropractic Centre"
+  seo-description: "Carlingford Chiropractic Centre is a Chiropractic care clinic, open in Carlingford for over 25 years."
+
+----
+
+Keyword: blog,blogging,vblog,blogger
+
+----
+
+Mainimage: blogcover.jpg
+
+----
+
+Keywords: blog,vblog,ccc blog,xxxx,ako th
+
+----
+
+No-articles: This blog does not contain any articles yet.
+
+----
+
+Pagination-left: Previous
+
+----
+
+Pagination-right: Next

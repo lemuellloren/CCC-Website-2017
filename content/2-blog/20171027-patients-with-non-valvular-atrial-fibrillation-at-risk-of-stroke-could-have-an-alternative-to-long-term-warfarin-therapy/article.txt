@@ -1,0 +1,49 @@
+Title: Patients With Non-Valvular Atrial Fibrillation At Risk Of Stroke Could Have An Alternative To Long Term Warfarin Therapy
+
+----
+
+Coverimage: 
+
+----
+
+Date: 2017-10-27
+
+----
+
+Text: 
+
+An article published in this week's edition of The Lancet reports that patients with atrial fibrillation at risk of stroke could be offered percutaneous closure of the left atrial appendage instead of long-term warfarin therapy. The findings are from the PROTECT AF study. The article is the work of Professor David R Holmes, Mayo Clinic, Rochester, MN, USA, and collaborators. 
+
+Atrial fibrillation is irregular heartbeat and the most frequent sustained cardiac arrhythmia. As the world's population ages, its occurrence is expected to increase. Atrial fibrillation causes the upper chambers of the heart to tremble. This can cause blood to pool and form blood clots in an area of the heart called the left atrial appendage (LAA). The LAA is an embryonic remnant of the original left atrium. It is an elongated, tubular structure that is connected to the left atrial cavity. About 90 percent of atrial thrombi in patients with non-valvular atrial fibrillation are assumed to initiate in the LAA. The authors examined in this randomised study the efficiency and safety of percutaneous closure of the LAA compared with long term warfarin therapy in patients with non-valvular atrial fibrillation at risk for stroke. 
+
+Patients eligible for the study had a least one of following: previous stroke or transient ischaemic attack (a blockage of blood vessels in the brain not as serious as a stroke), congestive heart failure, diabetes, high blood pressure, or were 75 years or older. Overall, 707 patients were included in the assessment and 463 were randomised in a 2:1 ratio to percutaneous closure of the LAA and subsequent discontinuation of warfarin and 244 patients followed long term warfarin therapy. The percutaneous method involved implantation of a device (the WATCHMAN) to close off the LAA. Effectiveness was determined through a combined endpoint of all stroke (ischeamic and haemorrhagic), cardiovascular death, and systemic embolism (a blood clot that goes somewhere other than the brain). There were serious adverse events that were measured in the safety assessment. They included major bleeding, pericardial effusion (an accidental perforation of the heart causing fluid collection in the heart sac), and device embolisation. 
+
+Results indicated that after 1,065 patient years of monitoring, there were 3.0 efficacy events per 100 patient-years in the device group. In the warfarin group there were 4.9. This translates to a relative reduction of 38 percent. On the other hand, serious safety events were more frequent in the device group (7.4 events per 100 patient-years) compared with the warfarin group (4.4 events per 100 patient-years). The majority of these safety events were linked to the procedural implant. 
+
+The authors write in conclusion: "The efficacy of percutaneous closure of the LAA with this device was non-inferior to that of warfarin therapy. Although there was a higher rate of adverse safety events in the intervention group than the control group, events in the intervention group were mainly a result of periprocedural complications. Closure of the LAA might provide an alternative strategy to chronic warfarin therapy for stroke prophylaxis in patients with non-valvular atrial fibrillation." 
+
+In an associated note, Drs Dominick J H McCabe, Justin A Kinsella, and W Oliver Tobin, Adelaide and Meath Hospital, Dublin, incorporating the National Children's Hospital, Trinity College, Dublin, Ireland, remark that warfarin has its limitations. However, it is still the preferred treatment for patients with non-valvular atrial fibrillation and who are suitable for long-term oral anticoagulation. But they mention that additional research on the use of left atrial appendage occlusion devices is necessary. This particularly applies for patients unsuitable for long term warfarin therapy. 
+
+**"Percutaneous closure of the left atrial appendage versus warfarin therapy for prevention of stroke in patients with atrial fibrillation: a randomised non-inferiority trial" **
+David R Holmes, Vivek Y Reddy, Zoltan G Turi, Shephal K Doshi, Horst Sievert, Maurice Buchbinder, Christopher M Mullin, Peter Sick, for the PROTECT AF Investigators
+Lancet 2009; 374: 534-42
+
+----
+
+Author: ryuchix
+
+----
+
+Tags: atrial fibrillation,stroke
+
+----
+
+Mainimage: 
+
+----
+
+Teaser: A-fib is a common form of irregular heartbeat, or arrhythmia, and studies have shown that patients living with it have a considerably higher risk of developing dementia, including Alzheimer's disease.
+
+----
+
+Keywords: 

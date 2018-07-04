@@ -1,0 +1,123 @@
+title: What We Treat
+icon: medkit
+pages: false
+preview: parent
+
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+  preview: false
+
+files: false
+
+fields:
+
+  first_line: 
+    label: Page Section
+    type: tabs
+
+  title:
+    label: Menu Title
+    type: title
+
+  header_text:
+    label: Section Heading
+    type: text
+
+  header_message:
+    label: Section Content
+    type: textarea
+
+  second_line: 
+    label: Diagram Modals
+    type: tabs
+
+  info:
+    label: Head and Neck Area
+    type: headline
+    
+  head_neck_title:
+    label: Modal Title
+    type: text
+
+  head_neck_content:
+    label: Modal Content
+    type: textarea
+
+  infoTwo:
+    label: Wrist And Hand Area
+    type: headline
+
+  wrist_hand_title:
+    label: Modal Title
+    type: text
+
+  wrist_hand_content:
+    label: Modal Content
+    type: textarea
+
+  infothree:
+    label: Chest Area
+    type: headline
+
+  chest_title:
+    label: Modal Title
+    type: text
+
+  chest_content:
+    label: Modal Content
+    type: textarea
+
+  infofour:
+    label: Hips Area
+    type: headline
+
+
+  hips_title:
+    label: Modal Title
+    type: text
+
+  hips_content:
+    label: Modal Content
+    type: textarea
+
+  infofive:
+    label: Legs Area
+    type: headline
+
+
+  legs_title:
+    label: Modal Title
+    type: text
+
+  legs_content:
+    label: Modal Content
+    type: textarea
+
+  infosix:
+    label: Back Area
+    type: headline
+
+
+  back_title:
+    label: Modal Title
+    type: text
+
+  back_content:
+    label: Modal Content
+    type: textarea
+
+  infolowerback:
+    label: Lower Back Area
+    type: headline
+
+
+  lowerback_title:
+    label: Modal Title
+    type: text
+
+  lowerback_content:
+    label: Modal Content
+    type: textarea

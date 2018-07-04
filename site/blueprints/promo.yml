@@ -1,0 +1,88 @@
+title: Promo
+icon: money
+pages: false
+preview: parent
+
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+  preview: false
+
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+  fields:
+    alt_text:
+      label: Alt Text
+      type: text
+fields:
+  title:
+    label: Menu Title
+    type: title
+
+  ispromo:
+    type: checkbox
+    text: Promo Available?
+    help: >
+      Tick to display promo section.
+
+  promo_background_image:
+    label: Background Image
+    type: image
+    help: >
+      The image should be 2000(w)x1500(h) pixels. Larger images will be automatically scaled down and cropped.
+
+  promo_name: 
+    label: Section Heading
+    type: text
+
+  promo_content:
+    label: Section Content
+    type: textarea
+
+  promo_goto_btn:
+    label: 'Go To' Button Text
+    type: text
+    placeholder: Go Now
+    width: 1/2
+    help: >
+      Clicking this button will take the visitor to the destination URL. 
+      Leave empty to omit button.
+  promo_goto_url:
+    label: Destination URL 
+    type: url 
+    width: 1/2
+  hero_download_btn:
+    label: 'Download' Button Text
+    type: text
+    placeholder: Download Now
+    width: 1/2
+    help: >
+      Clicking this button will download a specified file. 
+      Leave empty to omit button.
+  hero_download_file:
+    label: File to Download
+    type: select
+    options: files 
+    width: 1/2
+  hero_call_btn:
+    label: 'Call' Button Text 
+    type: text 
+    placeholder: Call Now
+    width: 1/2
+    help: >
+      Clicking this button dials your phone number. 
+      Leave empty to omit button.
+  hero_book_btn:
+    label: 'Book Now' Button Text 
+    type: text 
+    placeholder: Book an Appointment
+    width: 1/2
+    help: >
+      Clicking this button launches Cliniko's appointment booker. 
+      Leave empty to omit button.    

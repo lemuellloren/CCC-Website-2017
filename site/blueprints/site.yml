@@ -1,0 +1,488 @@
+title: Site
+
+options: 
+  preview: false
+  status: false
+  template: false
+  url: false
+  delete: true
+
+pages: false
+  add: false
+  
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+  fields:
+    alt_text:
+      label: Alt Text
+      type: text
+fields:
+
+  # GENERAL TAB
+  # =================================================
+  tab1:
+    label: Site Metadata
+    type:  tabs
+  title:
+    label: Website Name
+    type:  title
+  website_logo:
+    label: Light Logo 
+    type: image
+    required: false
+    width: 1/2
+    help: >
+      Used in Hero Banners throughout the site.<br>
+      Ideal logo size is 150(w)x65(h) pixels. Ideal format is .SVG or .PNG. Larger images may cause layout issues.
+  website_logotwo:
+    label: Dark Logo
+    type: image
+    required: false
+    width: 1/2
+    help: >
+      Used in the mobile menu, author image in article page and error page.<br>
+      Ideal logo size is 150(w)x65(h) pixels. Ideal format is .SVG or .PNG. Larger images may cause layout issues.
+  headline1:
+    label: Buttons
+    type: headline
+  callnow_button_text:
+    label: Call Now Button Text
+    type: text
+    width: 1/2
+    required: true
+    placeholder: Call us now
+  callnow_button_icon:
+    label: Call Now Button Icon
+    type: text
+    width: 1/2
+    required: true
+    placeholder: phone
+    help: >
+      Changing this icon will also change the corresponding icon in your site menu<br>
+      Click <a href="https://getuikit.com/v2/docs/icon.html#icon-mapping" target="_blank">here</a> to view all available icons. Default is 'phone'      
+  appointment_button_text:
+    label: Book Now Button Text
+    type: text
+    width: 1/2
+    placeholder: Book an Appointment
+  appointment_button_icon:
+    label: Book Now Button Icon
+    type: text
+    width: 1/2
+    placeholder: calendar-plus-o
+    help: >
+      Changing this icon will also change the corresponding icon in your site menu<br>
+      Click <a href="https://getuikit.com/v2/docs/icon.html#icon-mapping" target="_blank">here</a> to view all available icons. Default is 'calendar-plus-o'
+  headline2:
+    label: Site Menu
+    type: headline
+  home_icon_tooltip:
+    label: Home Icon Tooltip
+    type: text
+    width: 1/2
+    placeholder: Home
+    required: true
+    help: >
+      Home Icon Tooltip text
+  blog_icon_tooltip:
+    label: Blog Icon Tooltip
+    type: text
+    width: 1/2
+    placeholder: Blog
+    required: true
+    help: >
+      Blog Icon Tooltip text
+  phone_icon_tooltip:
+    label: Phone Icon Tooltip
+    type: text
+    width: 1/2
+    placeholder: Call Now
+    required: true
+    help: >
+      Phone Icon Tooltip text
+  phone_text:
+    label: Phone to Display
+    type: text
+    width: 1/2
+    required: true
+    placeholder: Dial (02) 9999 8888
+    help: >
+      Phone number or text to display in the 'Call Now' menu item
+  phone: 
+    label: Number to Dial
+    type: text
+    required: true
+    width: 1/2
+    placeholder: +61.2.99998888
+    help: >
+      Number to dial when menu is selected. Use only digits and the plus sign. Do not use spaces, dashes or parentheses.
+  book_now_tooltip:
+    label: Book Now Icon Tooltip
+    type: text
+    width: 1/2
+    placeholder: Book an Appointment
+    required: true
+    help: >
+      Book Now Icon Tooltip text
+  map_icon_tooltip:
+    label: Map Icon Tooltip
+    type: text
+    width: 1/2
+    placeholder: Find Us
+    required: true
+    help: >
+      Map Icon Tooltip text
+  share_icon_tooltip:
+    label: Share Icon Tooltip
+    type: text
+    width: 1/2
+    placeholder: Share on Social Media
+    required: true
+    help: >
+      Share Icon Tooltip text
+  search_icon_tooltip:
+    label: Search Icon Tooltip
+    type: text
+    width: 1/2
+    placeholder: Search
+    required: true
+    help: >
+      Search Icon Tooltip text
+
+  # LOCATION TAB
+  # =================================================
+  tabs2:
+    label: Location
+    type: tabs
+
+  header_title:
+    label: Location Section Heading
+    required: true
+    type: text
+    placeholder: How to Find Us
+  address: 
+    label: Location Address
+    required: true
+    type: text
+    width: 1/2
+  email: 
+    label: Location Email
+    type: text
+    required: true
+    width: 1/2
+    help: >
+     Leave empty to omit.
+  location:
+    label: Map Embed Code
+    type: textarea
+    required: true
+    buttons: false
+    help: >
+      Paste the Google Map code. <br>
+      To set the width, find the width="" and add the value inside the quote. Ideal width value is 100%. <br>
+      To set the height, find the height="" and add the value inside the quote. Ideal height value is 488px.<br>
+      You can set specific length values, like px, cm, etc., or in percent (%).
+
+  # CONTACT FORM TAB
+  # =================================================
+  tab_contactform:
+    label: Contact
+    type: tabs
+
+  contact_headline:
+    label: Contact Us Form Section
+    type: headline
+
+  contact_header_title:
+    label: Section Heading
+    type: text
+    required: true
+    placeholder: Message us
+
+  contact_sub_title:
+    label: Section Content
+    type: textarea
+    placeholder: Message
+    required: true
+    help: >
+      The message will display below Header Title.
+
+  placeholder_headline:
+    label: Contact Form Placeholder
+    type: headline
+
+  fullname_placeholder:
+    label: Full Name Field Label
+    type: text
+    placeholder: Your Full Name
+    width: 1/2
+    required: true
+    help: >
+      Fullname field placeholder
+
+  enail_placeholder:
+    label: Email Field Label
+    type: text
+    placeholder: Your Email
+    width: 1/2
+    required: true
+    help: >
+      Email field placeholder
+
+  phone_placeholder:
+    label: Phone Number Field Label
+    type: text
+    placeholder: Your Phone
+    width: 1/2
+    required: true
+    help: >
+      Phone number field placeholder
+
+  message_placeholder:
+    label: Message Field Label
+    type: text
+    placeholder: Your Message
+    width: 1/2
+    required: true
+    help: >
+      Message field placeholder
+
+  contact_button_text:
+    label: Send Button Text
+    type: text
+    width: 1/2
+    required: true
+    placeholder: Submit
+
+  contact_button_icon:
+    label: Send Button Icon
+    type: text
+    width: 1/2
+    required: true
+    placeholder: send
+    help: >
+      Click <a href="https://getuikit.com/v2/docs/icon.html#icon-mapping" target="_blank">here</a> to view all available icons. Default is 'envelope'      
+  
+  line2: 
+    type: line
+
+  contact_email_recipient:
+    label: Recipient Email
+    type: text
+    placeholder: company@email.com 
+    required: true
+    help: >
+      Enter the email of the recipient for the contact form. 
+
+  contact_email_subject:
+    label: Email Subject
+    type: text
+    placeholder: Support 
+    required: true
+    help: >
+      Enter the subject of the email to be used in the contact form
+
+  loading_sending_message:
+    label: Sending Message
+    type: text
+    placeholder: Sending message...
+    required: true
+    help: >
+      Text to display while message is being sent
+
+  contact_success_message:
+    label: Success Message
+    type: text
+    placeholder: Thank you for emailing us. 
+    required: true
+    help: >
+      Text to display when message is sent successfully
+
+  # SOCIAL SHARE TAB
+  # =================================================
+  tab3:
+    label: Social Media
+    type:  tabs
+  ## SOCIAL SHARE  
+  socialshare_line:
+    label: Social Share 
+    type: headline
+  share_info:
+    label: 
+    type: info
+    text: >
+        Ticking these checkboxes will add a 'Share' item to the site's navigation and footer section,
+        allowing the visitor to share the current page on different social media sites.
+  social_share_text:
+    label: Text Label
+    type: text
+    placeholder: Share us on
+  share_facebook:
+    label: 
+    type: checkbox
+    text: show Facebook Share button
+    width: 1/2
+    icon: facebook
+  share_linkedin:
+    label: 
+    type: checkbox
+    text: show LinkedIn Share button
+    width: 1/2
+    icon: linkedin
+  share_twitter:
+    label: 
+    type: checkbox
+    text: show Twitter Share button
+    width: 1/2
+    icon: twitter
+  share_pinterest:
+    label: 
+    type: checkbox
+    text: show Pinterest Share button
+    width: 1/2
+    icon: pinterest
+  share_tumblr:
+    label: 
+    type: checkbox
+    text: show Tumblr Share button
+    width: 1/2
+    icon: tumblr
+  share_reddit:
+    label: 
+    type: checkbox
+    text: show Reddit Share button
+    width: 1/2
+    icon: reddit-alien
+  share_googleplus:
+    label:
+    type: checkbox
+    text: show Google plus Share button
+    width: 1/2
+    icon: google-plus
+  share_email:
+    label:
+    type: checkbox
+    text: show Email Share button
+    width: 1/2
+    icon: envelope
+
+  ## SOCIAL MEDIA ACCOUNT  
+  share_visit_headline:
+    label: Social Media Accounts
+    type: headline
+  visit_info:
+    label: 
+    type: info
+    text: >
+        Enter the social media account URL. Leave the specific field empty if none.
+  visit_share_text:
+    label: Text Label
+    type: text
+    placeholder: Find us on
+  visit_facebook: 
+    label: Facebook Link
+    width: 1/2
+    icon: facebook
+    help: >
+      eg. https://www.facebook.com/myaccount
+    placeholder: https://www.facebook.com/myaccount
+  visit_twitter: 
+    label: Twitter Link
+    width: 1/2
+    icon: twitter
+    help: >
+      eg. https://www.twitter.com/myaccount
+    placeholder: https://www.twitter.com/myaccount
+  visit_youtube:
+    label: Youtube Link
+    width: 1/2
+    icon: youtube 
+    help: >
+      eg. https://www.youtube.com/channel/channel_id
+    placeholder: https://www.youtube.com/channel/channel_id
+  visit_instagram: 
+    label: Instagram Link
+    width: 1/2
+    icon: instagram
+    help: >
+      eg. eg. https://www.instagram.com/myaccount
+    placeholder: https://www.instagram.com/myaccount
+  visit_tumblr: 
+    label: Tumblr Link
+    width: 1/2
+    icon: tumblr
+    help: >
+      eg. https://myaccount.tumblr.com/
+    placeholder: https://myaccount.tumblr.com
+  visit_googleplus: 
+    label: Google Plus Link
+    width: 1/2
+    icon: google-plus
+    help: >
+      eg. https://plus.google.com/u/0/myaccount
+    placeholder: https://plus.google.com/u/0/myaccount
+
+  # FOOTER TAB
+  # =================================================
+  tab4:
+    label: Footer 
+    type:  tabs
+  copyright:
+    label: Section Content
+    type:  text
+    placeholder: © 2017, Carlingford Chiropractic Centre.  All rights reserved.
+  terms_and_condition_line: 
+    type: line
+  terms_and_condition_title:
+    label: Terms & Conditions Title
+    type:  text
+  terms_and_condition:
+    label: Terms & Conditions Content
+    type:  textarea
+  privacy_policy_line: 
+    type: line
+  privacy_policy_title:
+    label: Privacy Policy Title
+    type:  text
+  privacy_policy:
+    label: Privacy Policy Content
+    type:  textarea
+  tabs5: 
+    label: API
+    type: tabs
+  cliniko_tag:
+    label: Cliniko Embed Code
+    type: textarea
+    buttons: false
+    placeholder: <iframe src='https://xxxxx.cliniko.com/bookings?business_id=xxxxx&practitioner_id=xxxxx&appointment_type_id=xxxxx&embedded=true' frameborder='0' scrolling='auto' width='100%' height='700'></iframe>
+    help: >
+      For better appearance, please set height to 700
+  contact_message_modal:
+    label: Custom Message In Booking Modal
+    type: textarea
+    placeholder: If you are experiencing any issues with the booking for, don't hesitate to --CONTACTUS--
+    help: >
+      Custom message if user decided to use contact form.<br>
+      Use --CONTACTUS-- to link the word 'contact us' to contact form
+  tab5_line1:
+    type: line  
+  discuss_tag:
+    label: Disqus comment code
+    type: textarea
+    placeholder: <script> ...
+    buttons: false
+    help: >
+      Starts with script tag. See the screenshots  <a href="../assets/images/discuss.png" target="_blank"><img src="../assets/images/discuss.png" width="100"></a>
+  tab5_line2:
+    type: line      
+  analytics_tag:
+    label: Google Anaytics Tracking Code
+    type: textarea
+    placeholder: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X"></script> ...
+    buttons: false
+    help: >
+      Insert your <a href="https://analytics.google.com/analytics/web/#management/Settings" target="_blank">Google Anaytics tracking code</a>.

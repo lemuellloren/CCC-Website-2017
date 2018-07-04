@@ -1,0 +1,33 @@
+Title: Search
+
+----
+
+Year: 
+
+----
+
+Text: 
+
+----
+
+Perpage: 5
+
+----
+
+Number-article-paginated: 5
+
+----
+
+Nosearchfound: No results found for "--SEARCHTERM--".
+
+----
+
+Whattosearch: title|text
+
+----
+
+Search-result-query: Found 1 result for "--SEARCHTERM--".
+
+----
+
+Many-result: Found --RESULTCOUNT-- results for "--SEARCHTERM--".

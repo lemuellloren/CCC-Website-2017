@@ -1,0 +1,381 @@
+Title: Carlingford Chiropractic Site - Carlingford Chiropractic Centre
+
+----
+
+Author: Bastian Allgeier GmbH
+
+----
+
+Description: Carlingford Chiropractic Centre is a Chiropractic care clinic, open in Carlingford for over 25 years. The main Chiropractor is Tim Wade-Ferrell, an Advanced Instructor in the Activator technique.
+
+----
+
+Copyright: © 2017, Carlingford Chiropractic Centre.  All rights reserved.
+
+----
+
+Keyword: carlingford chiropractic,carlingford chiropractor,chiropractor tim wade-ferrell,chiro carlingford,chiropractic care carlingford,activator chiropractor,activator clinic,activator carlingford
+
+----
+
+Website-logo: oval.png
+
+----
+
+Privacy-policy: 
+
+## Introduction
+
+News Portal PH is committed to protecting your privacy to allow for a safe and secure experience. This privacy policy outlines how information is collected and used. As our content and services constantly evolve we may modify this policy from time to time.
+
+## Information Collection
+
+(link: http://www.newsportal.ph/ text: We may collect information from you in order for you to use popup: yes) our services. This can include, but is not limited to your name, email address, and Internet Protocol address. Aside from your name or chosen nickname, other information will not be publicly available to others. We do not promote nor send spam thus we will not redistribute your information to any third parties.
+
+We may collect cookies from your computer depending on your preferences. Cookies are plain text files that are stored on your computer generally used to serve to your convenience for future visits. This can prevent repeatedly performing tasks such as typing in your name or email address each time by saving this information for future use. You can stop accepting cookies by configuring the settings in your browser, however, you may not be able to fully use the website features.
+
+In addition, third party advertisements may also set and/or read cookies on your computer to collect information about users who view or interact with their advertisements. The general use of this information is for the purpose of reporting website traffic, statistics, advertisement click-throughs, and other activities on the website by using cookies, web beacons, and other monitoring technologies to compile anonymous statistics about our website visitors. No personally identifiable information is collected by or transferred to any party other than the Advertiser. The actions of such parties and how they use such information is subject to the particular third party’s privacy policy. To opt out from such information collection please visit the following link: http://www.networkadvertising.org/managing/opt_out.asp.
+
+## Obligation to Children’s Privacy
+
+We never collect or maintain information from those who we actually know are under 13 years of age. Such information will be deleted if we become aware that a child under 13 has provided us with personal information.
+
+## How to Contact Us
+
+Should you have any questions or concerns regarding our privacy policies, please use the contact form provided on the website to bring to our attention your concern.
+
+----
+
+Terms-and-condition: 
+
+(link: http://www.newsportal.ph/ text: News Portal PH popup: yes)  makes no representations, warranties, or assurances as to the accuracy, currency or completeness of the content contain on this website or any sites linked to this site.
+
+News Portal PH does not stream audio, videos or host content of any kind. The audio you listen to and videos you watch are hosted on 3rd party website like Youtube, Facebook and other website that provide similar services..
+
+Most of the photos/images included in the articles are coming from available images on the web which we found through google search. If we mistakenly included a photo without proper credit or could be a violation against any intellectual property rights, please hit the contact us link above and inform us so that we can remove it if necessary.
+
+Any audio or video hosted or shown on third-party websites have passed their own stringent internal vetting procedures and as such are assumed as fully authorized for publication by the content owners. This site is not responsible for content of external internet websites and is not responsible for the availability of such third-party websites. The content of such third-party websites is beyond our control.
+
+**## This site DOES NOT CLAIM any OWNERSHIP or COPYRIGHT on ALL the audio or videos shared.**
+
+----
+
+Privacy-policy-title: Privacy Policy
+
+----
+
+Terms-and-condition-title: Terms and Conditions
+
+----
+
+Partners-title: Partners and Friends
+
+----
+
+Partner-items: 
+
+- 
+  partner_name: Your Foot
+  partner_link: http://google.com
+  partner_image: partners2.png
+- 
+  partner_name: BPD
+  partner_link: http://fb.com
+  partner_image: partners.png
+- 
+  partner_name: Brand
+  partner_link: http://newsportal.ph
+  partner_image: partners1.png
+- 
+  partner_name: Logo
+  partner_link: 'https://play.google.com/store/apps/details?id=com.newsportal.ph&hl=en'
+  partner_image: partners3.png
+
+----
+
+Location: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.375740032557!2d151.05140795051838!3d-33.77679398058708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a405e7c99613%3A0xa2c479e698c86a74!2sCarlingford+Chiropractic+Centre!5e0!3m2!1sen!2sau!4v1508907657756" width="100%" height="488" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+
+----
+
+Email: randy@gmail.com
+
+----
+
+Phone: +61.2.88835890
+
+----
+
+Address: 125-D Main St, Lumbera Compound, Guadalupe Village Davao City, Philippines
+
+----
+
+Share-facebook: 1
+
+----
+
+Share-linkedin: 0
+
+----
+
+Share-twitter: 1
+
+----
+
+Share-pinterest: 0
+
+----
+
+Share-tumblr: 0
+
+----
+
+Share-reddit: 0
+
+----
+
+Share-googleplus: 0
+
+----
+
+Share-email: 0
+
+----
+
+Visit-facebook: #
+
+----
+
+Visit-twitter: 
+
+----
+
+Visit-youtube: #
+
+----
+
+Visit-instagram: 
+
+----
+
+Visit-pinterest: 
+
+----
+
+Visit-linked: 
+
+----
+
+Visit-tumblr: 
+
+----
+
+Visit-googleplus: 
+
+----
+
+Appointment-button-text: Book an Appointment
+
+----
+
+Appointment-button-icon: calendar-plus-o
+
+----
+
+Callnow-button-text: Contact us
+
+----
+
+Callnow-button-number: 09174128392
+
+----
+
+Callnow-button-icon: headphones
+
+----
+
+Social-share-text: Share us
+
+----
+
+Visit-share-text: Find us
+
+----
+
+Contact-header-title: Message me
+
+----
+
+Contact-sub-title: 
+
+Neever seek for help from anyone,
+Instead step ahead and try to solve it by yourself!
+
+----
+
+Contact-button-text: Send Message
+
+----
+
+Contact-button-icon: send
+
+----
+
+Contact-email-recipient: randy@leetdigital.com
+
+----
+
+Contact-success-message: Thanks!
+
+----
+
+Analytics-tag: 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77810906-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-77810906-1');
+</script>
+
+----
+
+Perpage: 5
+
+----
+
+Perpage-paginated: 3
+
+----
+
+Viewblog: View Blog
+
+----
+
+Website-logotwo: bluelogo.png
+
+----
+
+Contact-email-subject: Message from the website
+
+----
+
+Contact-message-modal: If you are **experiencing** any issues with the booking for, don't hesitate to --CONTACTUS--
+
+----
+
+Cliniko-tag: <iframe src='https://cccadmin.cliniko.com/bookings?business_id=1316&practitioner_id=2113&embedded=true' frameborder='0' scrolling='auto' width='100%' height='1000'></iframe>
+
+----
+
+Discuss-tag: 
+
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://carlingford-chiro.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+----
+
+Seo: 
+
+-
+  seo-title: "Carlingford Chiropractic Site - Carlingford Chiropractic Centre"
+  seo-description: "Carlingford Chiropractic Centre is a Chiropractic care clinic, open in Carlingford for over 25 years. The main Chiropractor is Tim Wade-Ferrell, an Advanced Instructor in the Activator technique."
+
+----
+
+Header-title: How to find us
+
+----
+
+Header-subtitle: Carlingford Chiropractic Centre
+
+----
+
+Header-text: 
+
+----
+
+Phone-text: Dial (02) 638 9292
+
+----
+
+Share-text: Share us
+
+----
+
+Search-placeholder-text: Search
+
+----
+
+Fullname-placeholder: Your Full Name
+
+----
+
+Enail-placeholder: Your Email
+
+----
+
+Phone-placeholder: Your Phone
+
+----
+
+Message-placeholder: Your Message
+
+----
+
+Loading-sending-message: Sending message...
+
+----
+
+Alt-text: Carlingford Chiropractic Site - Carlingford Chiropractic Centre Logo
+
+----
+
+Home-icon-tooltip: Home
+
+----
+
+Blog-icon-tooltip: Blog
+
+----
+
+Phone-icon-tooltip: Call now
+
+----
+
+Book-now-tooltip: Book An Appointment
+
+----
+
+Map-icon-tooltip: Find us
+
+----
+
+Share-icon-tooltip: Share on Social Media
+
+----
+
+Search-icon-tooltip: Search
+
+----
+
+Location-address: 125-D Main St, Lumbera Compound, Guadalupe Village Davao City, Philippines

@@ -1,0 +1,17 @@
+Title: Who We Are
+
+----
+
+Www-title: Who We Are
+
+----
+
+Www-content: A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and (link: http://facebook.com text: convince) consumers to take action.
+
+----
+
+Www-background-image: about-cover.jpg
+
+----
+
+Www-logo: logo-tab-about.png

@@ -1,0 +1,71 @@
+Title: Contact Us
+
+----
+
+Header-title: How to Find Us
+
+----
+
+Header-subtile: Carlingford Chiropractic Centre
+
+----
+
+Header-text: Our new site is currently under construction, so please come back soon - it will be worth the wait! In the meantime, if you need to **get in touch** with us, feel free use the (link: # text: Contact Form) on this page.
+
+----
+
+Header-subtitle: Carlingford Chiropractic Centre
+
+----
+
+Contact-header-title: Message me
+
+----
+
+Contact-sub-title: 
+
+Never seek for help from anyone,
+Instead step ahead and try to solve it by yourself!
+
+----
+
+Contact-button-text: Send This
+
+----
+
+Contact-button-icon: send
+
+----
+
+Contact-email-recipient: randyssss@leetdigital.com
+
+----
+
+Contact-success-message: Message successfully sent!
+
+----
+
+Contact-message-modal: 
+
+## Custom Message for Booking modal
+This is a test message!
+
+----
+
+Contact-email-subject: Message from the website
+
+----
+
+Fullname-placeholder: Full name
+
+----
+
+Enail-placeholder: Email address
+
+----
+
+Phone-placeholder: Phone number
+
+----
+
+Message-placeholder: Message

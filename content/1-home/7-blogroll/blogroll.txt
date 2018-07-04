@@ -1,0 +1,13 @@
+Title: Blogroll
+
+----
+
+Tab5: 
+
+----
+
+Viewblog: Visit the blog
+
+----
+
+Perpage: 3

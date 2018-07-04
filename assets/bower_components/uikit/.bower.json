@@ -1,0 +1,33 @@
+{
+  "name": "uikit",
+  "homepage": "http://getuikit.com",
+  "main": [
+    "css/uikit.min.css",
+    "js/uikit.min.js",
+    "fonts/fontawesome-webfont.ttf",
+    "fonts/fontawesome-webfont.woff",
+    "fonts/fontawesome-webfont.woff2",
+    "fonts/FontAwesome.otf"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0"
+  },
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "docs",
+    "vendor",
+    "composer.json",
+    "index.html"
+  ],
+  "_release": "b57559c19b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "v2/dist",
+    "commit": "b57559c19bda1105fe345370fb546269ae2a5032"
+  },
+  "_source": "https://github.com/uikit/uikit.git",
+  "_target": "v2/dist",
+  "_originalSource": "uikit",
+  "_direct": true
+}

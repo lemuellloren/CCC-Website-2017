@@ -1,0 +1,6 @@
+.field-buttons ul {
+	background-color: #fff;
+}
+.form > fieldset {
+  min-width: 0;
+}

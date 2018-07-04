@@ -1,0 +1,87 @@
+Title: Promos
+
+----
+
+Promo-background-color: red
+
+----
+
+Promo-background-image: promo-bg.jpg
+
+----
+
+Promo-items: 
+
+- 
+  promo_name: Are you in pain?
+  promo_content: >
+    Hernia generally involves penetration of
+    the internal organs through the
+    protective muscle walls that surround
+    them.
+  promo_lists: >
+    Lower Back Pain,Hips Issues,Neck
+    Pain,Broken Heart
+
+----
+
+Hero-button-text: Book Appointment
+
+----
+
+Hero-button-icon: bus
+
+----
+
+Promo-button-text: Book an Appointment
+
+----
+
+Promo-button-icon: bus
+
+----
+
+Promo-name: Are you in <em>pain?</em>
+
+----
+
+Promo-content: 
+
+Hernia generally involves penetration of the internal organs through the protective muscle walls that surround them.
+
+1. Lower Back Pain
+1. Hips Issues
+1. Neck Pain
+1. Broken Heart
+
+----
+
+Promo-lists: 
+
+----
+
+Ispromo: 1
+
+----
+
+Promo-goto-btn: Go Now
+
+----
+
+Promo-goto-url: http://fb.com
+
+----
+
+Hero-download-btn: Download now
+
+----
+
+Hero-download-file: promo-bg.jpg
+
+----
+
+Hero-call-btn: Call now
+
+----
+
+Hero-book-btn: Book an appointment
